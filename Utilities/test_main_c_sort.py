@@ -54,3 +54,6 @@ class TestSort():
 
         sss_name = ss_folder + timestamp + '_ss_sort_descending.png'
         self.driver.save_screenshot(sss_name)
+
+
+# sample comment by Tester 1 for git push and Jenkins run setup
