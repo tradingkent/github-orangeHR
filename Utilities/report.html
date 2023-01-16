@@ -439,9 +439,36 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 13-Jan-2023 at 13:15:49 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 16-Jan-2023 at 13:08:40 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
+      <tr>
+        <td>BUILD_ID</td>
+        <td>9</td></tr>
+      <tr>
+        <td>BUILD_NUMBER</td>
+        <td>9</td></tr>
+      <tr>
+        <td>BUILD_TAG</td>
+        <td>jenkins-selenium-automation-python-orangeHR-9</td></tr>
+      <tr>
+        <td>BUILD_URL</td>
+        <td><a href="http://localhost:9090/job/selenium-automation-python-orangeHR/9/" target="_blank">http://localhost:9090/job/selenium-automation-python-orangeHR/9/</a></td></tr>
+      <tr>
+        <td>CI</td>
+        <td>true</td></tr>
+      <tr>
+        <td>EXECUTOR_NUMBER</td>
+        <td>0</td></tr>
+      <tr>
+        <td>JENKINS_URL</td>
+        <td><a href="http://localhost:9090/" target="_blank">http://localhost:9090/</a></td></tr>
+      <tr>
+        <td>JOB_NAME</td>
+        <td>selenium-automation-python-orangeHR</td></tr>
+      <tr>
+        <td>NODE_NAME</td>
+        <td>built-in</td></tr>
       <tr>
         <td>Packages</td>
         <td>{"pluggy": "1.0.0", "pytest": "7.2.0"}</td></tr>
@@ -453,10 +480,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>{"Faker": "15.3.4", "html": "3.2.0", "metadata": "2.0.4", "tags": "1.8.1"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.11.1</td></tr></table>
+        <td>3.11.1</td></tr>
+      <tr>
+        <td>WORKSPACE</td>
+        <td>C:\python-selenium\git-clone\orangeHR-git\github-orangeHR\Utilities</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 25.36 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>3 tests ran in 37.20 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -471,21 +501,33 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_main_c_sort.py::TestSort::test_login_admin_sort</td>
-          <td class="col-duration">17.18</td>
+          <td class="col-duration">23.41</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     report_log:orangeHR_login_page.py:57 Username: Admin
+            <div class="log"> -----------------------------Captured stderr setup------------------------------ <br/>[WDM] - Downloading:   0%|          | 0.00/2.57k [00:00&lt;?, ?B/s][WDM] - Downloading: 19.0kB [00:00, ?B/s]                       
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     report_log:orangeHR_login_page.py:57 Username: Admin
 INFO     report_log:orangeHR_login_page.py:58 Password: admin123
 INFO     report_log:orangeHR_login_page.py:65 Success<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_main_c_sort.py::TestSort::test_sort_ascending</td>
-          <td class="col-duration">7.94</td>
+          <td class="col-duration">6.60</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     report_log:orangeHR_ess_sort.py:69 [&#x27;admin&#x27;, &#x27;admin123&#x27;, &#x27;camilac&#x27;, &#x27;cassidy.hope&#x27;, &#x27;cecil.bonaparte&#x27;, &#x27;charlie.carter&#x27;, &#x27;chenzira.chuki&#x27;, &#x27;david.morris&#x27;, &#x27;dominic.chase&#x27;, &#x27;ehioze.ebo&#x27;, &#x27;elder test&#x27;, &#x27;fiona.grace&#x27;, &#x27;garry.white&#x27;, &#x27;goutam.ganesh&#x27;, &#x27;jacqueline.white&#x27;, &#x27;jadine.jackie&#x27;, &#x27;jairg&#x27;, &#x27;jasmine.morgan&#x27;, &#x27;joe.root&#x27;, &#x27;john.smith&#x27;, &#x27;jomham&#x27;, &#x27;jordan.mathews&#x27;, &#x27;karthick&#x27;, &#x27;kevin.mathews&#x27;, &#x27;kiyara.hu&#x27;, &#x27;linda.anderson&#x27;, &#x27;lisa.andrews&#x27;, &#x27;luke.wright&#x27;, &#x27;maggie.manning&#x27;, &#x27;melan.peiris&#x27;, &#x27;nathan.elliot&#x27;, &#x27;nina.patel&#x27;, &#x27;odis.adalwin&#x27;, &#x27;odis1234&#x27;, &#x27;peter.anderson&#x27;, &#x27;rbhegade&#x27;, &#x27;rebecca.harmony&#x27;, &#x27;russel.hamilton&#x27;, &#x27;sania.shaheen&#x27;, &#x27;sara.tencrady&#x27;, &#x27;vantai1&#x27;, &#x27;xxxxx222399&#x27;, &#x27;xxxxx222401&#x27;, &#x27;xxxxx222402&#x27;]
-INFO     report_log:orangeHR_ess_sort.py:70 [&#x27;admin&#x27;, &#x27;admin123&#x27;, &#x27;camilac&#x27;, &#x27;cassidy.hope&#x27;, &#x27;cecil.bonaparte&#x27;, &#x27;charlie.carter&#x27;, &#x27;chenzira.chuki&#x27;, &#x27;david.morris&#x27;, &#x27;dominic.chase&#x27;, &#x27;ehioze.ebo&#x27;, &#x27;elder test&#x27;, &#x27;fiona.grace&#x27;, &#x27;garry.white&#x27;, &#x27;goutam.ganesh&#x27;, &#x27;jacqueline.white&#x27;, &#x27;jadine.jackie&#x27;, &#x27;jairg&#x27;, &#x27;jasmine.morgan&#x27;, &#x27;joe.root&#x27;, &#x27;john.smith&#x27;, &#x27;jomham&#x27;, &#x27;jordan.mathews&#x27;, &#x27;karthick&#x27;, &#x27;kevin.mathews&#x27;, &#x27;kiyara.hu&#x27;, &#x27;linda.anderson&#x27;, &#x27;lisa.andrews&#x27;, &#x27;luke.wright&#x27;, &#x27;maggie.manning&#x27;, &#x27;melan.peiris&#x27;, &#x27;nathan.elliot&#x27;, &#x27;nina.patel&#x27;, &#x27;odis.adalwin&#x27;, &#x27;odis1234&#x27;, &#x27;peter.anderson&#x27;, &#x27;rbhegade&#x27;, &#x27;rebecca.harmony&#x27;, &#x27;russel.hamilton&#x27;, &#x27;sania.shaheen&#x27;, &#x27;sara.tencrady&#x27;, &#x27;vantai1&#x27;, &#x27;xxxxx222399&#x27;, &#x27;xxxxx222401&#x27;, &#x27;xxxxx222402&#x27;]
-INFO     report_log:orangeHR_ess_sort.py:73 Ascending Success<br/></div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     report_log:orangeHR_ess_sort.py:69 [&#x27;50155&#x27;, &#x27;50712&#x27;, &#x27;50777&#x27;, &#x27;admin&#x27;, &#x27;test123&#x27;, &#x27;trinhanhday&#x27;]
+INFO     report_log:orangeHR_ess_sort.py:70 [&#x27;50155&#x27;, &#x27;50712&#x27;, &#x27;50777&#x27;, &#x27;admin&#x27;, &#x27;test123&#x27;, &#x27;trinhanhday&#x27;]
+INFO     report_log:orangeHR_ess_sort.py:73 Ascending Success<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_main_c_sort.py::TestSort::test_sort_descending</td>
+          <td class="col-duration">7.02</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     report_log:orangeHR_ess_sort.py:89 [&#x27;trinhanhday&#x27;, &#x27;test123&#x27;, &#x27;admin&#x27;, &#x27;50777&#x27;, &#x27;50712&#x27;, &#x27;50155&#x27;]
+INFO     report_log:orangeHR_ess_sort.py:90 [&#x27;trinhanhday&#x27;, &#x27;test123&#x27;, &#x27;admin&#x27;, &#x27;50777&#x27;, &#x27;50712&#x27;, &#x27;50155&#x27;]
+INFO     report_log:orangeHR_ess_sort.py:93 Descending Success<br/></div></td></tr></tbody></table></body></html>
